@@ -1,5 +1,26 @@
-<form action="/upload" method="post" encType="multipart/form-data">
-  <input name="files" type="file" multiple />
+<!DOCTYPE >
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <button type="submit">submit</button>
-</form>
+  <style>
+    html, body {
+      padding: 0;
+      margin: 20px 0;
+      text-align: center;
+      font-size: 50px;
+    }
+
+    input {
+      height: 50px;
+    }
+
+  </style>
+  <body>
+    <form action="/upload" method="post" encType="multipart/form-data">
+      <input name="files" type="file" multiple />
+
+      <button type="submit">submit</button>
+    </form>
+  </body>
+
+</html>
